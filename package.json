@@ -1,9 +1,11 @@
 {
   "name": "running-apps",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "[{ pid, comm, app }]",
   "main": "./src/index.js",
-  "bin": "./src/bin/cli.js",
+  "bin": {
+    "running-apps": "./src/bin/cli.js"
+  },
   "eslintConfig": {
     "env": {
       "browser": true,
@@ -21,5 +23,20 @@
   "dependencies": {
     "parse-comm": "1.1.1",
     "pid-comm": "1.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerbf/running-apps.git"
+  },
+  "keywords": [
+    "ps",
+    "comm",
+    "pid",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/rogerbf/running-apps/issues"
+  },
+  "homepage": "https://github.com/rogerbf/running-apps#readme"
 }
