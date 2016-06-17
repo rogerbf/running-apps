@@ -1,0 +1,25 @@
+{
+  "name": "running-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "bin": "./src/bin/cli.js",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
+  "license": "MIT",
+  "dependencies": {
+    "parse-comm": "1.1.1",
+    "pid-comm": "1.1.0"
+  }
+}
